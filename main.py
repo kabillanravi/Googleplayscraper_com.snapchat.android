@@ -8,7 +8,8 @@ result, _ = reviews(
     lang='en',  # Language
     country='us',  # Country
     sort=Sort.NEWEST,  # Sort by newest
-    count=500,  # Number of reviews
+    count=50
+,  # Number of reviews
     #filter_score_with= 5  # Only 5-star reviews
 )
 
